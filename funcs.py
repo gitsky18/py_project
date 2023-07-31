@@ -1,10 +1,8 @@
-a = int(input())
-b = int(input())
-
-
-def my_sum(a, b):
+def add_numbers(a, b):
     c = a + b
     return c
 
+a = int(input())
+b = int(input())
 
-print(my_sum(a, b))
+print(add_numbers(a, b))
